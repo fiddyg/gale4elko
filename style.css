@@ -11,6 +11,18 @@ body {
     
 }
 
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
 .logo {
     grid-column: 1 / 2;
 }
@@ -28,14 +40,16 @@ nav ul {
 
 nav ul a {
     text-decoration: none;
-    color: black;
+    color: rgb(150, 150, 150);
 }
 
 a {
     position: relative;
-  }
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+}
   
-a::before {
+nav a::before, .maintext a::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -69,13 +83,13 @@ a:hover::before {
 }
 
 .img img {
-    width: 100%;
+    width: 200%;
     height: auto;
 }
 
 .maintext {
     grid-column: 2 / 3;
-    margin-left: 10%;
+    margin-left: 40%;
 }
 
 .maintext h1 {
@@ -83,4 +97,51 @@ a:hover::before {
     width: 100%;
     text-align: center;
     color: white;
+}
+
+.blog {
+    grid-column: 2 / 3
+}
+
+.blog h1 {
+    text-align: center;
+}
+
+.blogpost button {
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid black;
+    min-height: 100px;
+    margin: 5% 0;
+}
+
+.blogpost button:hover {
+    background-color: rgb(150, 150, 150);
+    color: white;
+    transition-duration: 1s;
+}
+
+.blogpost button h3 {
+    width: 75%;
+    margin: 0 auto;
+}
+
+form {
+    background-color: lightgray;
+}
+
+.signup {
+    grid-column: 2 / 3;
+    margin-bottom: 5%;
+}
+
+hr {
+    width: 100%;
+    grid-column: 1 / 4;
+    margin-bottom: 1%;
+    border: 2px solid black;
+}
+
+.social {
+    margin-bottom: 5%;
 }

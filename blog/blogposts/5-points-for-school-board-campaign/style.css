@@ -8,6 +8,19 @@
 body {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
+    
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 15px;
 }
 
 .logo {
@@ -27,14 +40,16 @@ nav ul {
 
 nav ul a {
     text-decoration: none;
-    color: black;
+    color: rgb(150, 150, 150);
 }
 
 a {
     position: relative;
-  }
+    text-decoration: none;
+    color: rgb(150, 150, 150);
+}
   
-nav a::before {
+nav a::before, .maintext a::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -63,37 +78,35 @@ a:hover::before {
     grid-column: 3 / 4;
 }
 
-.blog {
-    grid-column: 2 / 3
+
+.blank1 {
+    grid-column: 1 / 2;
 }
 
-.blog h1 {
+.blogpost{
+    grid-column: 2 / 3;
+}
+
+.blogpost h1, .blogpost h3 {
     text-align: center;
 }
 
-.blogpost button {
-    width: 100%;
-    background-color: transparent;
-    border: 2px solid black;
-    min-height: 100px;
-    margin: 5% 0;
+.blogpost ol {
+    margin-top: 5%;
 }
 
-.blogpost button:hover {
-    background-color: rgb(150, 150, 150);
-    color: white;
-    transition-duration: 1s;
+.blogpost li {
+    line-height: 2;
 }
 
-.blogpost button h3 {
-    width: 75%;
-    margin: 0 auto;
+.blank2 {
+    grid-column: 3 / 4;
 }
 
 hr {
     width: 100%;
     grid-column: 1 / 4;
-    margin-top: 20%;
+    margin-top: 2%;
     margin-bottom: 1%;
     border: 2px solid black;
 }
