@@ -165,6 +165,10 @@ hr {
         grid-column: 1 / 2;
     }
 
+    nav a {
+        font-size: 1.5rem;
+    }
+
     .blank {
         display: hidden;
     }
