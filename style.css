@@ -29,6 +29,10 @@ h5 {
     text-decoration: none;
 }
 
+.logo {
+    margin-left: 2%;
+}
+
 nav {
     grid-column: 2 / 3;
 }
@@ -159,7 +163,12 @@ hr {
     }
 
     nav {
-        display: hidden;
+        visibility: hidden;
+    }
+
+    nav ul li a {
+        color: white;
+        visibility: hidden;
     }
 
     .blank {
@@ -208,3 +217,7 @@ hr {
         grid-column: 1 / 2;
     }
 }
+
+
+
+
