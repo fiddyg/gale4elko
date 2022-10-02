@@ -10,8 +10,6 @@ body {
     grid-template-columns: 1fr 3fr 1fr;   
 }
 
-/* desktop */
-
 h1 {
     font-size: 40px;
 }
@@ -160,15 +158,11 @@ hr {
 
     .logo {
         display: hidden;
-    }
+        text-align: center;
+    }   
 
     nav {
-        visibility: hidden;
-    }
-
-    nav ul li a {
-        color: white;
-        visibility: hidden;
+        grid-column: 1 / 2;
     }
 
     .blank {
