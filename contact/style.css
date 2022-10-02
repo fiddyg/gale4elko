@@ -69,6 +69,7 @@ a:hover::before {
 
 .contact {
     grid-column: 2 / 3;
+    margin-top: 2%;
 }
 
 .form-control {
@@ -76,12 +77,13 @@ a:hover::before {
     background: transparent;
     border: none;
     outline: none;
-    border-bottom: 3px solid black;
+    border: 2px solid black;
     color: black;
     font-family: 'Roboto', sans-serif;
-    margin: 3% 0;
+    margin: 2% 0;
     font-size: 30px;
     grid-column: 2 / 3;
+    padding: 0 1%;
 }
 
 .send {
