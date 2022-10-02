@@ -10,8 +10,24 @@ body {
     grid-template-columns: 1fr 3fr 1fr;
 }
 
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
 .logo {
     grid-column: 1 / 2;
+}
+
+.logo a {
+    text-decoration: none;
 }
 
 nav {
