@@ -78,3 +78,9 @@ a:hover::before {
     margin-left: 10%;
 }
 
+.maintext h1 {
+    background-color: dodgerblue;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
