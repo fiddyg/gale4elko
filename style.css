@@ -64,11 +64,17 @@ a:hover::before {
     grid-column: 3 / 4;
 }
 
-.main {
-    grid-column: 1 / 4;
+.img {
+    grid-column: 1 / 2;
 }
 
-.main img {
-    width: 50%;
+.img img {
+    width: 100%;
     height: auto;
 }
+
+.maintext {
+    grid-column: 2 / 3;
+    margin-left: 10%;
+}
+
