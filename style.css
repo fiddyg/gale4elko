@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+
+header {
+    
+}
+
+nav {
+    display: ;
+}
