@@ -49,7 +49,7 @@ a {
     color: rgb(150, 150, 150);
 }
   
-nav a::before, .maintext a::before {
+nav a::before, .maintext a::before, .social a::before {
     content: '';
     position: absolute;
     width: 100%;
