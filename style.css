@@ -151,7 +151,7 @@ hr {
 
 @media screen and (max-width: 1000px) {
     body {
-        grid-template-columns: 1fr 10fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     .logo {
@@ -167,30 +167,38 @@ hr {
     }
 
     .img {
-        grid-column: 1 / 4;
+        grid-column: 1 / 2;
         width: 50%;
     }
 
     .maintext {
-        grid-column: 2 / 3;
+        grid-column: 1 / 2;
         margin: 0;
     }
 
     .blog {
-        grid-column: 2 / 3;
+        grid-column: 1 / 2;
         margin: 0;
     }
 
+    .blogpost button {
+        width: auto;
+        background-color: transparent;
+        border: 2px solid black;
+        min-height: 100px;
+        margin: 5% 0;
+    }
+
     .signup {
-        grid-column: 2 / 3;
+        grid-column: 1 / 2;
     }
 
     .social {
-        grid-column: 1 / 4;
+        grid-column: 1 / 2;
         text-align: center;
     }
 
     .social h2 {
-        grid-column: 2 / 3;
+        grid-column: 1 / 2;
     }
 }
