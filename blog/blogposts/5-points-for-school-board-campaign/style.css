@@ -145,6 +145,11 @@ hr {
         grid-column: 1 / 4;
         margin: 0 auto;
         width: 80%;
+        margin: 2% auto;
+    }
+
+    .blogpost h1 {
+        font-size: 30px;
     }
 
     .social {

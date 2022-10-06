@@ -126,10 +126,11 @@ hr {
     .logo {
         display: hidden;
         text-align: center;
+        grid-column: 1 / 4;
     }   
 
     nav {
-        grid-column: 1 / 2;
+        grid-column: 1 / 4;
     }
 
     nav a {
@@ -139,13 +140,23 @@ hr {
     .blank {
         display: hidden;
     }
-
-    .blogpost {
-        width: 100%;
-        background-color: transparent;
-        min-height: 100px;
+    
+    .blog {
+        grid-column: 1 / 4;
+        text-align: center;
     }
 
+    .blog h1 {
+        font-size: 30px;
+
+    }
+
+    .blogpost {
+        width: 80%;
+        background-color: transparent;
+        min-height: 100px;
+        margin: 0 auto;
+    }
 
     .social {
         grid-column: 1 / 4;
