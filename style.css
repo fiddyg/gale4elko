@@ -175,7 +175,7 @@ hr {
 
     .img {
         grid-column: 1 / 2;
-        width: 65%;
+        width: 50%;
     }
 
     .maintext {
