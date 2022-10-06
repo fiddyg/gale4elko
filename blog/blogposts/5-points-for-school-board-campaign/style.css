@@ -118,3 +118,43 @@ hr {
 .social {
     margin-bottom: 5%;
 }
+
+@media screen and (max-width: 1000px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+
+    .logo {
+        display: hidden;
+        text-align: center;
+    }   
+
+    nav {
+        grid-column: 1 / 2;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+
+    .blank {
+        display: hidden;
+    }
+
+    .blogpost {
+        grid-column: 1 / 4;
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .social {
+        grid-column: 1 / 4;
+        text-align: center;
+        margin: 0 auto;
+        width: 75%;
+    }
+
+    .social h2 {
+        grid-column: 1 / 2;
+    }
+}
