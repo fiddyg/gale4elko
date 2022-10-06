@@ -83,6 +83,10 @@ a:hover::before {
     grid-column: 2 / 3
 }
 
+.blog h1 {
+    text-align: center;
+}
+
 .blogpost h1 {
     text-align: center;
 }
