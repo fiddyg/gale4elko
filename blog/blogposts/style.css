@@ -88,16 +88,22 @@ a:hover::before {
     grid-column: 1 / 2;
 }
 
-.blogpost{
+.blogpost {
     grid-column: 2 / 3;
+    line-height: 2;
 }
 
 .blogpost h1, .blogpost h3 {
     text-align: center;
+    line-height: 1.5;
 }
 
-.blogpost ol {
-    margin-top: 5%;
+.blogpost p {
+    margin-bottom: 2.5%;
+}
+
+.blogpost ol, .blogpost ul {
+    margin: 5%;
 }
 
 .blogpost li {
