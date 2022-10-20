@@ -50,7 +50,7 @@ a {
     position: relative;
   }
   
-a::before {
+nav a::before {
     content: '';
     position: absolute;
     width: 100%;

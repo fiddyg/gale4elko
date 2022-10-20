@@ -54,7 +54,7 @@ a {
     color: rgb(150, 150, 150);
 }
   
-nav a::before, .maintext a::before {
+nav ul a::before, .maintext a::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -112,6 +112,11 @@ a:hover::before {
 
 .blank2 {
     grid-column: 3 / 4;
+}
+
+.thoughts {
+    grid-column: 2 / 3;
+    text-align: center;
 }
 
 hr {
