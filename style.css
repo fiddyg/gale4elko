@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     color: black;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Cabin', sans-serif;
 }
 
 body {
@@ -29,22 +29,6 @@ h5 {
 
 .logo {
     margin-left: 2%;
-}
-
-nav {
-    grid-column: 2 / 3;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    font-size: 2vw;
-}
-
-nav ul a {
-    text-decoration: none;
-    color: rgb(150, 150, 150);
 }
 
 a {
@@ -128,10 +112,6 @@ a:hover::before {
 .blogpost button h3 {
     width: 75%;
     margin: 0 auto;
-}
-
-form {
-    background-color: lightgray;
 }
 
 .signup {
